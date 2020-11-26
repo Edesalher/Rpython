@@ -1,3 +1,11 @@
+"""
+Wiring:
+GND --> Pin 6
+VCC --> Pin 4
+SDA --> Pin 3
+SCL --> Pin 5
+"""
+
 from RPLCD.i2c import CharLCD
 # import time
 
