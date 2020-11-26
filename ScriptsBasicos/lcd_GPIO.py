@@ -1,3 +1,11 @@
+"""
+Wiring:
+RS --> Pin 15
+RW --> Pin 18
+E  --> Pin 16
+DATA 4-7 --> Pin 21, 22, 23, 24
+"""
+
 from RPLCD.gpio import CharLCD
 import RPi.GPIO as GPIO
 
